@@ -8,11 +8,13 @@
     "start": "react-native start",
     "test": "jest",
     "postinstall": "npx jetify && react-native link && cd ios && pod install && cd ..",
+    "clean": "react-native clean-project",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-clean-project": "^3.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
