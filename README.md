@@ -13,6 +13,8 @@ Below you will find a list of all the libraries included, and a brief explanatio
 * redux-saga
 * prop-types
 * AsyncStorage
+* eslint
+* axios
 
 ### react-native-clean-project:  
 Cleans your React Native project by purging caches and modules, and reinstalling them again.  
@@ -70,3 +72,16 @@ An asynchronous, persistent, key-value storage system for React Native.
 
 **Version:** 1.10.1  
 **Link:** https://github.com/react-native-community/async-storage
+
+### eslint
+ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+
+**Version:** 6.8.0
+**Link:** https://github.com/eslint/eslint
+
+### axios
+Promise-based HTTP client. Easy to send asynchronous HTTP request to REST endpoints and perform CRUD operations.
+You can also use it with a **axios-case-converter**. This library is an axios transformer/interceptor that converts snake_case/camelCase.
+
+**Version:** 0.19.2
+**Link:** https://github.com/axios/axios
