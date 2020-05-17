@@ -15,6 +15,7 @@ Below you will find a list of all the libraries included, and a brief explanatio
 * AsyncStorage
 * eslint
 * axios
+* react-native-config
 
 ### react-native-clean-project:  
 Cleans your React Native project by purging caches and modules, and reinstalling them again.  
@@ -85,3 +86,17 @@ You can also use it with a **axios-case-converter**. This library is an axios tr
 
 **Version:** 0.19.2
 **Link:** https://github.com/axios/axios
+
+### react-native-config
+Module to expose config variables to your javascript code in React Native
+
+**Version:** 1.0.0  
+**Link:** https://github.com/luggit/react-native-config  
+
+**How to use it:**
+Add a *.env* file in the root of your app.
+```javascript
+import Config from 'react-native-config'
+
+Config.getConstants(); // Returns an object with the env variables
+```

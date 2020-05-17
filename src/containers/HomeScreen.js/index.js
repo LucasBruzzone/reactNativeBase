@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import * as appActions from '../../../redux/actions/appActions';
+import * as appActions from '../../redux/actions/appActions';
 
 import styles from './styles';
 

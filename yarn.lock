@@ -5659,6 +5659,11 @@ react-native-clean-project@^3.3.0:
   resolved "https://registry.yarnpkg.com/react-native-clean-project/-/react-native-clean-project-3.3.0.tgz#89974c4a291123e6d1f72c32185a012a649f1fa8"
   integrity sha512-IudFlNsaQd6QcgcbTZcNEXDlrJ9zzRspIUV7yvBX3bfB72Z9et9hIceH9+F+xYSlvwUSB4L/fvkIPosYKa+q9Q==
 
+react-native-config@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-1.0.0.tgz#fada8f79996db1eadcee9e221afd713c91f677e5"
+  integrity sha512-ZydFNkGgjPCgJ4nDDGxuoMSsz4HACJH6TyYEDeefnzGW3XS/HXxdiW8SOaOD8B0WACQJHM028ypnwhexJ7hhsA==
+
 react-native@0.62.2:
   version "0.62.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"
