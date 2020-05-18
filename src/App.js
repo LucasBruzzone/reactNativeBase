@@ -8,8 +8,10 @@ import store from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
 import { persistStore } from 'redux-persist';
 import { Provider } from 'react-redux';
+import 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
 
-import HomeScreen from './containers/HomeScreen.js/index';
+import Routes from './routes';
 
 const App = () => {
   // To disable yellow warnings.
@@ -21,8 +23,10 @@ const App = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <Provider store={store}>
         <PersistGate persistor={persistStore(store)}>
-          <StatusBar barStyle="dark-content" />
-          <HomeScreen />
+          <NavigationContainer>
+            <StatusBar barStyle="dark-content" />
+            <Routes />
+          </NavigationContainer>
         </PersistGate>
       </Provider>
     </SafeAreaView>

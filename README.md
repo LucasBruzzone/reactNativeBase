@@ -16,6 +16,7 @@ Below you will find a list of all the libraries included, and a brief explanatio
 * eslint
 * axios
 * react-native-config
+* @react-navigation/native
 
 ### react-native-clean-project:  
 Cleans your React Native project by purging caches and modules, and reinstalling them again.  
@@ -100,3 +101,9 @@ import Config from 'react-native-config'
 
 Config.getConstants(); // Returns an object with the env variables
 ```
+
+### @react-navigation/native
+Routing and navigation for your React Native apps. Documentation can be found at https://reactnavigation.org.  
+
+**Version:** 5.4.0  
+**Link:** https://github.com/react-navigation/react-navigation

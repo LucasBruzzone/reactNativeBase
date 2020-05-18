@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native';
 
+import { white, darkGray } from '../../utils/constants';
+
 export default StyleSheet.create({
   mainContainer: {
     width: '100%',
@@ -7,11 +9,12 @@ export default StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: white,
   },
 
   container: {
     width: '100%',
-    height: '30%',
+    height: '40%',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -22,24 +25,15 @@ export default StyleSheet.create({
     fontSize: 28,
   },
 
-  text: (inButton = false) => ({
+  text: {
     fontSize: 18,
-    color: inButton ? '#ffffff' : '#383B3C',
-    fontWeight: inButton ? 'bold' : 'normal',
-  }),
+    color: darkGray,
+  },
 
   buttonContainer: {
     display: 'flex',
     alignItems: 'center',
-  },
-
-  button: {
-    height: 50,
-    marginTop: 20,
-    padding: 10,
-    color: '#ffffff',
-    backgroundColor: '#46BAF1',
-    borderRadius: 8,
-    justifyContent: 'center',
+    marginTop: 40,
+    marginBottom: 100,
   },
 });
