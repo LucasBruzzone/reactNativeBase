@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   StatusBar,
   YellowBox,
@@ -10,10 +10,15 @@ import { persistStore } from 'redux-persist';
 import { Provider } from 'react-redux';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
+import SplashScreen from 'react-native-splash-screen';
 
 import Routes from './routes';
 
 const App = () => {
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
+
   // To disable yellow warnings.
   YellowBox.ignoreWarnings([
     'VirtualizedLists should never be nested',
