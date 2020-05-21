@@ -6,6 +6,28 @@ Simple React Native boilerplate to start new projects.
 
 Below you will find a list of all the libraries included, and a brief explanation of each one, along with how to remove some that maybe you don't want to.
 
+## How to setup App Icons:
+
+### Android:
+Change ic_launcher.png and ic_launcher_round.png in *android/app/src/main/res/mipmap* folders
+
+### IOS:
+* Open Xcode project.
+* Open *reactNativeBase/reactNativeBase/Images.xcassets* folder
+* Put the desirable icons within the AppIcon Image Set
+
+## How to setup Splash Screens:
+
+### Android:
+Change launch_screen.png in *android/app/src/main/res/mipmap* and *android/app/src/main/res/drawable* folders
+
+### IOS:
+* Open Xcode project.
+* Open *reactNativeBase/reactNativeBase/Images.xcassets* folder
+* Create a new image set with the Splash Icon you want
+* Open *reactNativeBase/reactNativeBase/LaunchScreen.xib*
+* Replace Image View with the new Image View you added in Images.xcassets and adjust it to your need
+
 ## Libraries which are included:
 * react-native-clean-project  
 * redux
